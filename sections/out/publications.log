@@ -1,0 +1,24 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.27)  27 NOV 2022 21:42
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/brian/Projects/resume/sections/publications.tex
+(/home/brian/Projects/resume/sections/publications.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>)
+! Emergency stop.
+<*> ...n/Projects/resume/sections/publications.tex
+                                                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 18 strings out of 482590
+ 526 string characters out of 5953556
+ 233294 words of memory out of 5000000
+ 15292 multiletter control sequences out of 15000+600000
+ 532338 words of font info for 24 fonts, out of 8000000 for 9000
+ 309 hyphenation exceptions out of 8191
+ 12i,0n,15p,125b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

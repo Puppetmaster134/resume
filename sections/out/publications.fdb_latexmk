@@ -1,0 +1,12 @@
+# Fdb version 3
+["pdflatex"] 1669603350 "/home/brian/Projects/resume/sections/publications.tex" "out/publications.pdf" "publications" 1669603350
+  "/etc/texmf/web2c/texmf.cnf" 1664311801 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/brian/Projects/resume/sections/publications.tex" 1669603349 133 93d002159be81c661968cec562a98114 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1669592216 5154479 36c272e559d46ad2659f20728c2eb12f ""
+  "out/publications.aux" 1669603350 32 3985256e7290058c681f74d7a3565a19 ""
+  "publications.tex" 1669603349 133 93d002159be81c661968cec562a98114 ""
+  (generated)
+  "out/publications.log"
+  "out/publications.pdf"

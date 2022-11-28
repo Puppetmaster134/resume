@@ -1,0 +1,87 @@
+\documentclass[letter,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{CJKutf8}
+\usepackage{tabularx}
+\usepackage{array}
+
+%====================
+% File:         resume.tex
+% Modifying author2:       https://github.com/mengisok 
+% Last Updated: Oct 29, 2022
+% Notes:        I edited again on the version of @gobborg      
+%====================
+
+%====================
+% File:         resume.tex
+% Modifying author1:       https://github.com/gobborg 
+% Last Updated: Dec 26, 2021
+% Notes:        I just made it prettier and better suited to
+%               my needs.
+%====================
+
+%====================
+% File:         resume.tex
+% Original author:       https://github.com/TimmyChan 
+%               https://www.linkedin.com/in/timmy-l-chan/
+% Last Updated: Nov 19, 2021
+% Notes:        All formatting is done in TLCresume.sty
+%               No need to touch that file. 
+%               All actual content is in the sections/ folder.
+%====================
+
+\usepackage{TLCresume}
+
+\makeatletter
+\def\@documentnocite#1{\@bsphack
+  \@for\@citeb:=#1\do{%
+    \edef\@citeb{\expandafter\@firstofone\@citeb}%
+    \if@filesw\immediate\write\@auxout{\string\citation{\@citeb}}\fi
+    \@ifundefined{b@\@citeb}{\G@refundefinedtrue
+      \@latex@warning{Citation `\@citeb' undefined}}{}}%
+  \@esphack}
+\AtBeginDocument{\let\nocite\@documentnocite}
+\makeatother
+
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+
+%====================
+% CONTACT INFORMATION
+%====================
+\author{Brian D. Zimmerman} 
+\def\phone{226-505-8230}
+\def\city{San Diego, CA}
+\def\email{bdzimmer@uwaterloo.ca}
+% blog edited in _header.tex
+\def\github{puppetmaster134} % github username
+\def\LinkedIn{briandzimmerman} % linkedin.com/in/______
+
+\begin{document}
+\import{sections/}{_header}
+\vspace*{10pt}
+
+\section{Education}
+\import{sections/}{education}
+\vspace*{10pt}
+
+\section{Work Experience}
+\import{sections/}{experience}
+\vspace*{10pt}
+
+\section{Contract Work}
+\vspace*{3pt}
+\import{sections/}{contracts}
+\vspace*{10pt}
+
+\newpage
+\section{Projects}
+\vspace*{3pt}
+\import{sections/}{project}
+\vspace*{10pt}
+
+\section{Research}
+\vspace*{3pt}
+\nocite{*}
+\bibliographystyle{unsrt}
+\bibliography{ref.bib}
+\end{document}

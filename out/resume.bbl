@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+
+\bibitem{johnson}
+Matthew Johnson, Irene Humer, Brian Zimmerman, Joshua Shallow, Liudmila Tahai,
+  and Krzysztof Pietroszek.
+\newblock Low-cost latency compensation in motion tracking for smartphone-based
+  head mounted display.
+\newblock In {\em Proceedings of the International Working Conference on
+  Advanced Visual Interfaces}, AVI '16, page 316–317, New York, NY, USA,
+  2016. Association for Computing Machinery.
+
+\bibitem{zimmerman_2022}
+Brian~D. Zimmerman.
+\newblock Future sight: Dynamic story generation with large pretrained language
+  models.
+\newblock Master's thesis, UWSpace, 2022.
+
+\end{thebibliography}
